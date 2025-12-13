@@ -67,7 +67,7 @@ export default function Certifications() {
                                 show: { opacity: 1, scale: 1, transition: { type: "spring", stiffness: 100, damping: 20 } }
                             }}
                             whileHover={{ scale: 1.05 }}
-                            className="flex flex-col items-center p-6 bg-slate-50 rounded-xl border border-slate-100 hover:border-vodafone-red/20 hover:shadow-lg transition-all text-center group"
+                            className="flex flex-col items-center p-6 bg-slate-50 rounded-xl border border-slate-100 hover:border-vodafone-red/20 hover:shadow-lg transition-colors text-center group"
                         >
                             <div className={`p-4 rounded-full mb-4 ${cert.color} group-hover:scale-110 transition-transform`}>
                                 <cert.icon className="w-8 h-8" />

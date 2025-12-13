@@ -73,7 +73,7 @@ export default function Education() {
                                 show: { opacity: 1, x: 0, transition: { type: "spring", stiffness: 100, damping: 20 } }
                             }}
                             whileHover={{ scale: 1.02 }}
-                            className={`relative bg-white p-8 rounded-xl shadow-sm border border-slate-100 hover:shadow-lg transition-all group ${edu.highlight ? 'border-l-4 border-l-vodafone-red' : ''}`}
+                            className={`relative bg-white p-8 rounded-xl shadow-sm border border-slate-100 hover:shadow-lg transition-colors group ${edu.highlight ? 'border-l-4 border-l-vodafone-red' : ''}`}
                         >
                             <div className="flex items-start justify-between mb-4">
                                 <div className={`p-3 rounded-lg ${edu.highlight ? 'bg-vodafone-red/10 text-vodafone-red' : 'bg-slate-100 text-slate-500'}`}>

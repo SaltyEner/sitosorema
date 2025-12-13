@@ -53,7 +53,7 @@ export default function About() {
                                     show: { opacity: 1, y: 0, transition: { type: "spring", stiffness: 100, damping: 20 } }
                                 }}
                                 whileHover={{ scale: 1.05 }}
-                                className="bg-white px-4 py-3 rounded-lg shadow-sm border border-slate-100 text-slate-700 font-medium hover:border-vodafone-red/30 hover:shadow-md transition-all cursor-default"
+                                className="bg-white px-4 py-3 rounded-lg shadow-sm border border-slate-100 text-slate-700 font-medium hover:border-vodafone-red/30 hover:shadow-md transition-colors cursor-default"
                             >
                                 {skill}
                             </motion.div>

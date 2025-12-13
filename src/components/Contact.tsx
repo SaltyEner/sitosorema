@@ -59,7 +59,7 @@ export default function Contact() {
                                 whileHover={{ scale: 1.05 }}
                                 whileTap={{ scale: 0.95 }}
                                 transition={{ type: "spring", stiffness: 400, damping: 17 }}
-                                className="group flex items-center justify-between px-6 py-4 bg-white border border-slate-200 rounded-xl hover:border-vodafone-red hover:shadow-lg transition-all"
+                                className="group flex items-center justify-between px-6 py-4 bg-white border border-slate-200 rounded-xl hover:border-vodafone-red hover:shadow-lg transition-colors"
                             >
                                 <span className="font-semibold text-navy-blue">Download Resume</span>
                                 <ArrowRight className="w-5 h-5 text-vodafone-red transform group-hover:translate-x-1 transition-transform" />

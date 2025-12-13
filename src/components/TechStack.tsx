@@ -63,7 +63,7 @@ export default function TechStack() {
                                 show: { opacity: 1, y: 0, transition: { type: "spring", stiffness: 100, damping: 20 } }
                             }}
                             whileHover={{ y: -5, scale: 1.05 }}
-                            className="bg-slate-800/50 p-6 rounded-2xl border border-slate-700/50 hover:border-vodafone-red/50 hover:bg-slate-800 transition-all backdrop-blur-sm shadow-lg hover:shadow-vodafone-red/10"
+                            className="bg-slate-800/50 p-6 rounded-2xl border border-slate-700/50 hover:border-vodafone-red/50 hover:bg-slate-800 transition-colors backdrop-blur-sm shadow-lg hover:shadow-vodafone-red/10"
                         >
                             <div className="flex items-center gap-3 mb-6">
                                 <div className="p-2 bg-vodafone-red rounded-lg">

@@ -54,7 +54,7 @@ export default function CaseStudies() {
                             viewport={{ once: false, amount: 0.3 }}
                             transition={{ type: "spring", stiffness: 100, damping: 20, delay: index * 0.2 }}
                             whileHover={{ y: -5 }}
-                            className="bg-white rounded-2xl p-8 border border-slate-100 shadow-sm hover:shadow-xl hover:border-vodafone-red/20 transition-all group"
+                            className="bg-white rounded-2xl p-8 border border-slate-100 shadow-sm hover:shadow-xl hover:border-vodafone-red/20 transition-colors group"
                         >
                             <div className="flex items-center gap-4 mb-6">
                                 <div className={`p-3 rounded-xl ${study.bg} ${study.color} group-hover:scale-110 transition-transform`}>
