@@ -12,8 +12,8 @@ const caseStudies = [
         impact: "60% Process Automation",
         result: "Reduced time-to-market by 70%, identifying new revenue streams via real-time analytics.",
         icon: Zap,
-        color: "text-vodafone-red",
-        bg: "bg-vodafone-red/10"
+        color: "text-brand-teal",
+        bg: "bg-brand-teal/10"
     },
     {
         title: "Ariston Group CRM",
@@ -39,7 +39,7 @@ export default function CaseStudies() {
                     className="mb-16 text-center"
                 >
                     <h2 className="text-3xl lg:text-4xl font-serif font-bold text-navy-blue mb-4">Impact Stories</h2>
-                    <div className="h-1 w-20 bg-vodafone-red mx-auto mb-6" />
+                    <div className="h-1 w-20 bg-brand-teal mx-auto mb-6" />
                     <p className="text-slate-600 max-w-2xl mx-auto">
                         A closer look at strategic initiatives where technology met business goals.
                     </p>
@@ -54,7 +54,7 @@ export default function CaseStudies() {
                             viewport={{ once: false, amount: 0.3 }}
                             transition={{ type: "spring", stiffness: 100, damping: 20, delay: index * 0.2 }}
                             whileHover={{ y: -5 }}
-                            className="bg-white rounded-2xl p-8 border border-slate-100 shadow-sm hover:shadow-xl hover:border-vodafone-red/20 transition-colors group"
+                            className="bg-white rounded-2xl p-8 border border-slate-100 shadow-sm hover:shadow-xl hover:border-brand-teal/20 transition-colors group"
                         >
                             <div className="flex items-center gap-4 mb-6">
                                 <div className={`p-3 rounded-xl ${study.bg} ${study.color} group-hover:scale-110 transition-transform`}>
@@ -69,7 +69,7 @@ export default function CaseStudies() {
                             <div className="space-y-6">
                                 <div>
                                     <div className="flex items-center gap-2 mb-2">
-                                        <Target className="w-4 h-4 text-vodafone-red" />
+                                        <Target className="w-4 h-4 text-brand-teal" />
                                         <h4 className="font-bold text-slate-800">The Challenge</h4>
                                     </div>
                                     <p className="text-slate-600 text-sm leading-relaxed">{study.problem}</p>

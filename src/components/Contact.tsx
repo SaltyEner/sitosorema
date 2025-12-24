@@ -28,7 +28,7 @@ export default function Contact() {
                                     href="mailto:sara.prosperi@example.com"
                                     className="flex items-center gap-3 text-slate-200 hover:text-white transition-colors group"
                                 >
-                                    <div className="p-2 bg-white/10 rounded-lg group-hover:bg-vodafone-red transition-colors">
+                                    <div className="p-2 bg-white/10 rounded-lg group-hover:bg-brand-teal transition-colors">
                                         <Mail className="w-5 h-5" />
                                     </div>
                                     <span>sara.prosperi@example.com</span>
@@ -59,10 +59,10 @@ export default function Contact() {
                                 whileHover={{ scale: 1.05 }}
                                 whileTap={{ scale: 0.95 }}
                                 transition={{ type: "spring", stiffness: 400, damping: 17 }}
-                                className="group flex items-center justify-between px-6 py-4 bg-white border border-slate-200 rounded-xl hover:border-vodafone-red hover:shadow-lg transition-colors"
+                                className="group flex items-center justify-between px-6 py-4 bg-white border border-slate-200 rounded-xl hover:border-brand-teal hover:shadow-lg transition-colors"
                             >
                                 <span className="font-semibold text-navy-blue">Download Resume</span>
-                                <ArrowRight className="w-5 h-5 text-vodafone-red transform group-hover:translate-x-1 transition-transform" />
+                                <ArrowRight className="w-5 h-5 text-brand-teal transform group-hover:translate-x-1 transition-transform" />
                             </motion.a>
                         </div>
                     </div>

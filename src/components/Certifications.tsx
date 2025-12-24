@@ -41,7 +41,7 @@ export default function Certifications() {
                     className="mb-16 text-center"
                 >
                     <h2 className="text-3xl lg:text-4xl font-serif font-bold text-navy-blue mb-4">Certifications</h2>
-                    <div className="h-1 w-20 bg-vodafone-red mx-auto" />
+                    <div className="h-1 w-20 bg-brand-teal mx-auto" />
                 </motion.div>
 
                 <motion.div
@@ -67,7 +67,7 @@ export default function Certifications() {
                                 show: { opacity: 1, scale: 1, transition: { type: "spring", stiffness: 100, damping: 20 } }
                             }}
                             whileHover={{ scale: 1.05 }}
-                            className="flex flex-col items-center p-6 bg-slate-50 rounded-xl border border-slate-100 hover:border-vodafone-red/20 hover:shadow-lg transition-colors text-center group"
+                            className="flex flex-col items-center p-6 bg-slate-50 rounded-xl border border-slate-100 hover:border-brand-teal/20 hover:shadow-lg transition-colors text-center group"
                         >
                             <div className={`p-4 rounded-full mb-4 ${cert.color} group-hover:scale-110 transition-transform`}>
                                 <cert.icon className="w-8 h-8" />

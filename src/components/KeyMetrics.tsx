@@ -41,7 +41,7 @@ export default function KeyMetrics() {
         <section className="py-16 bg-navy-blue text-white relative overflow-hidden">
             {/* Background Pattern */}
             <div className="absolute inset-0 opacity-10">
-                <div className="absolute top-0 left-0 w-64 h-64 bg-vodafone-red rounded-full blur-[100px]" />
+                <div className="absolute top-0 left-0 w-64 h-64 bg-brand-teal rounded-full blur-[100px]" />
                 <div className="absolute bottom-0 right-0 w-64 h-64 bg-blue-500 rounded-full blur-[100px]" />
             </div>
 
@@ -56,7 +56,7 @@ export default function KeyMetrics() {
                             transition={{ type: "spring", stiffness: 100, damping: 20, delay: index * 0.1 }}
                             className="text-center group"
                         >
-                            <div className="text-4xl lg:text-5xl font-bold mb-2 text-white group-hover:text-vodafone-red transition-colors font-serif">
+                            <div className="text-4xl lg:text-5xl font-bold mb-2 text-white group-hover:text-brand-teal transition-colors font-serif">
                                 <Counter value={metric.value} />{metric.suffix}
                             </div>
                             <div className="text-lg font-semibold mb-1 text-slate-200">{metric.label}</div>

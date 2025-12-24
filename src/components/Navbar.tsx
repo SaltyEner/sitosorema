@@ -47,9 +47,9 @@ export default function Navbar() {
                         <a
                             href="#"
                             onClick={(e) => scrollToSection(e, '#hero')}
-                            className="text-2xl font-serif font-bold text-navy-blue tracking-tight hover:text-vodafone-red transition-colors"
+                            className="text-2xl font-serif font-bold text-navy-blue tracking-tight hover:text-brand-teal transition-colors"
                         >
-                            saraprosperi<span className="text-vodafone-red">.it</span>
+                            saraprosperi<span className="text-brand-teal">.it</span>
                         </a>
 
                         {/* Desktop Navigation */}
@@ -60,7 +60,7 @@ export default function Navbar() {
                                     href={link.href}
                                     onClick={(e) => scrollToSection(e, link.href)}
                                     whileHover={{ scale: 1.05 }}
-                                    className="text-sm font-medium text-slate-600 hover:text-vodafone-red transition-colors"
+                                    className="text-sm font-medium text-slate-600 hover:text-brand-teal transition-colors"
                                 >
                                     {link.name}
                                 </motion.a>
@@ -107,7 +107,7 @@ export default function Navbar() {
                             ))}
                             <a
                                 href="/cv.pdf"
-                                className="flex items-center justify-center gap-2 px-5 py-4 bg-vodafone-red text-white rounded-xl text-lg font-semibold mt-4"
+                                className="flex items-center justify-center gap-2 px-5 py-4 bg-brand-teal text-white rounded-xl text-lg font-semibold mt-4"
                             >
                                 <FileText className="w-5 h-5" />
                                 Download CV

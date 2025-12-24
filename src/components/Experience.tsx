@@ -47,7 +47,7 @@ export default function Experience() {
                     className="mb-16"
                 >
                     <div className="flex items-center gap-4 mb-2">
-                        <div className="h-1 w-12 bg-vodafone-red" />
+                        <div className="h-1 w-12 bg-brand-teal" />
                         <h2 className="text-3xl lg:text-4xl font-serif font-bold text-navy-blue">Experience</h2>
                     </div>
                     <p className="text-slate-500 ml-16">A proven track record of delivery and leadership.</p>
@@ -64,7 +64,7 @@ export default function Experience() {
                             className="relative pl-8 lg:pl-12"
                         >
                             {/* Timeline Dot */}
-                            <div className={`absolute -left-[9px] top-0 w-4 h-4 rounded-full border-2 ${index === 0 ? 'bg-vodafone-red border-vodafone-red' : 'bg-white border-slate-400'}`} />
+                            <div className={`absolute -left-[9px] top-0 w-4 h-4 rounded-full border-2 ${index === 0 ? 'bg-brand-teal border-brand-teal' : 'bg-white border-slate-400'}`} />
 
                             <div className="flex flex-col lg:flex-row lg:items-start justify-between gap-4 mb-2">
                                 <div>

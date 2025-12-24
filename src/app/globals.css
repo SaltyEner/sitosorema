@@ -3,9 +3,9 @@
 @theme {
   --font-serif: var(--font-playfair);
   --font-sans: var(--font-inter);
-  
+
   --color-corporate-white: #F8FAFC;
-  --color-vodafone-red: #E60000;
+  --color-brand-teal: #7D9F9E;
   --color-navy-blue: #0F172A;
 }
 

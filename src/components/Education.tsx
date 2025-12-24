@@ -47,7 +47,7 @@ export default function Education() {
                     className="mb-16 text-center"
                 >
                     <h2 className="text-3xl lg:text-4xl font-serif font-bold text-navy-blue mb-4">Education</h2>
-                    <div className="h-1 w-20 bg-vodafone-red mx-auto" />
+                    <div className="h-1 w-20 bg-brand-teal mx-auto" />
                 </motion.div>
 
                 <motion.div
@@ -73,10 +73,10 @@ export default function Education() {
                                 show: { opacity: 1, x: 0, transition: { type: "spring", stiffness: 100, damping: 20 } }
                             }}
                             whileHover={{ scale: 1.02 }}
-                            className={`relative bg-white p-8 rounded-xl shadow-sm border border-slate-100 hover:shadow-lg transition-colors group ${edu.highlight ? 'border-l-4 border-l-vodafone-red' : ''}`}
+                            className={`relative bg-white p-8 rounded-xl shadow-sm border border-slate-100 hover:shadow-lg transition-colors group ${edu.highlight ? 'border-l-4 border-l-brand-teal' : ''}`}
                         >
                             <div className="flex items-start justify-between mb-4">
-                                <div className={`p-3 rounded-lg ${edu.highlight ? 'bg-vodafone-red/10 text-vodafone-red' : 'bg-slate-100 text-slate-500'}`}>
+                                <div className={`p-3 rounded-lg ${edu.highlight ? 'bg-brand-teal/10 text-brand-teal' : 'bg-slate-100 text-slate-500'}`}>
                                     <edu.icon className="w-6 h-6" />
                                 </div>
                                 <span className="text-sm font-medium text-slate-400 bg-slate-50 px-3 py-1 rounded-full">
@@ -84,7 +84,7 @@ export default function Education() {
                                 </span>
                             </div>
 
-                            <h3 className="text-xl font-bold text-navy-blue mb-2 group-hover:text-vodafone-red transition-colors">
+                            <h3 className="text-xl font-bold text-navy-blue mb-2 group-hover:text-brand-teal transition-colors">
                                 {edu.degree}
                             </h3>
                             <div className="text-slate-600 font-medium mb-4">

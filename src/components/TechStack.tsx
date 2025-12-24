@@ -37,7 +37,7 @@ export default function TechStack() {
                     className="mb-16 text-center"
                 >
                     <h2 className="text-3xl lg:text-4xl font-serif font-bold mb-4">Tech & Tools Stack</h2>
-                    <div className="h-1 w-20 bg-vodafone-red mx-auto" />
+                    <div className="h-1 w-20 bg-brand-teal mx-auto" />
                 </motion.div>
 
                 <motion.div
@@ -63,10 +63,10 @@ export default function TechStack() {
                                 show: { opacity: 1, y: 0, transition: { type: "spring", stiffness: 100, damping: 20 } }
                             }}
                             whileHover={{ y: -5, scale: 1.05 }}
-                            className="bg-slate-800/50 p-6 rounded-2xl border border-slate-700/50 hover:border-vodafone-red/50 hover:bg-slate-800 transition-colors backdrop-blur-sm shadow-lg hover:shadow-vodafone-red/10"
+                            className="bg-slate-800/50 p-6 rounded-2xl border border-slate-700/50 hover:border-brand-teal/50 hover:bg-slate-800 transition-colors backdrop-blur-sm shadow-lg hover:shadow-brand-teal/10"
                         >
                             <div className="flex items-center gap-3 mb-6">
-                                <div className="p-2 bg-vodafone-red rounded-lg">
+                                <div className="p-2 bg-brand-teal rounded-lg">
                                     <stack.icon className="w-5 h-5 text-white" />
                                 </div>
                                 <h3 className="text-xl font-bold">{stack.category}</h3>
@@ -75,7 +75,7 @@ export default function TechStack() {
                             <ul className="space-y-3">
                                 {stack.items.map((item, i) => (
                                     <li key={i} className="flex items-center gap-2 text-slate-300">
-                                        <div className="w-1.5 h-1.5 rounded-full bg-vodafone-red" />
+                                        <div className="w-1.5 h-1.5 rounded-full bg-brand-teal" />
                                         {item}
                                     </li>
                                 ))}

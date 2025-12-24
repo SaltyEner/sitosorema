@@ -25,7 +25,7 @@ export default function About() {
                     <h2 className="text-3xl lg:text-4xl font-serif font-bold text-navy-blue mb-8">About Me</h2>
 
                     <p className="text-lg text-slate-700 leading-relaxed mb-12">
-                        Manager con <span className="font-semibold text-vodafone-red">5+ anni di esperienza</span> nella gestione end-to-end di progetti CRM e MarTech.
+                        Manager con <span className="font-semibold text-brand-teal">5+ anni di esperienza</span> nella gestione end-to-end di progetti CRM e MarTech.
                         Esperta nel trasformare strategie di business in soluzioni digitali scalabili, guidando team cross-funzionali in contesti internazionali.
                         Appassionata di dati e di come questi possano guidare decisioni strategiche per migliorare l'efficienza operativa e la customer experience.
                     </p>
@@ -53,7 +53,7 @@ export default function About() {
                                     show: { opacity: 1, y: 0, transition: { type: "spring", stiffness: 100, damping: 20 } }
                                 }}
                                 whileHover={{ scale: 1.05 }}
-                                className="bg-white px-4 py-3 rounded-lg shadow-sm border border-slate-100 text-slate-700 font-medium hover:border-vodafone-red/30 hover:shadow-md transition-colors cursor-default"
+                                className="bg-white px-4 py-3 rounded-lg shadow-sm border border-slate-100 text-slate-700 font-medium hover:border-brand-teal/30 hover:shadow-md transition-colors cursor-default"
                             >
                                 {skill}
                             </motion.div>
